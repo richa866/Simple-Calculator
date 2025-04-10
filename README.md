@@ -1,5 +1,5 @@
 # Simple-Calculator
-This project is a functional and user-friendly digital calculator designed for performing basic  arithmetic operations.
+This project is a functional and user-friendly digital calculator designed for performing basic  arithmetic operations. (view it on 75%)
 
 Here are some of the features I added:
 
