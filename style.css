@@ -1,0 +1,93 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.wrapper{
+    margin: 5rem;
+    display: grid;
+    align-items: center;
+    width: 20%;
+    height: 90%;
+    padding: 1rem;
+    background-color: rgb(2, 2, 37);
+    border-radius:1rem ;
+}
+.displayCalc{
+    width:380px;
+    padding: 1rem;
+    padding-bottom: 0;
+    color: white;
+    font-size: 1.5rem;
+    text-align: right;
+}
+#mode{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.displayScreen{
+    height: 90px;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.answer, .calcSteps{
+    width:380px;
+    background-color: transparent;
+    margin-top: 0.9rem;
+    outline: none;
+    border: 2px solid rgb(2, 2, 37) ;
+    color: white;
+    font-size: 2.9rem;
+    text-align: right;
+    font-family: "Itim", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.calcSteps{
+    font-size: 1.5rem;
+}
+table{
+    width: 420px;
+    height: 500px;
+    margin-bottom: 2rem;
+}
+td{
+    text-align: center;
+}
+
+
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    padding:1.9rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.9rem;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+#function{
+    color:  yellow;
+    background-color: rgba(36, 35, 35, 0.614);
+    font-weight:bolder ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.equals{
+    border-radius: 1.5rem;
+    width:175px;
+}
